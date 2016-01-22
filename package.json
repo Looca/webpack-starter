@@ -1,0 +1,20 @@
+{
+  "name": "modularweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server ./main.js"
+  },
+  "author": "Lukasz Pietraszek",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
