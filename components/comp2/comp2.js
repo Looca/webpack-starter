@@ -1,4 +1,4 @@
-require('./comp2.css');
+require('./comp2.scss');
 
 
 var comp2 = {

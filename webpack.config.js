@@ -8,9 +8,20 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.css$/,
-				loader: 'style!css!',
-				exclude: /node_modules/
+				loader: 'style!css!'
+			},
+			{
+				test: /\.scss$/,
+				loader: 'style!css!sass'
+			},
+			{
+				test: /\.js$/,
+				loader: 'babel-loader'
 			}
 		]
-	}
+	},
+	resolve: {
+    // you can now require('file') instead of require('file.js')
+    	extensions: ['', '.js', '.json'] 
+  	}
 }
